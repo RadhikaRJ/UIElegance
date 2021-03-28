@@ -197,8 +197,12 @@ footer {
 
 @media (max-width:675px) {
 
-    body, header,main,nav,footer, aside{
+    body, header,main,nav,footer, aside,.main-container,.container, .component-main-display,.component-container{
         margin: 0 auto;
         width:675px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
     }
 }
