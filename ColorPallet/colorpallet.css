@@ -1,0 +1,314 @@
+/*
+***************************************************
+
+CSS Classes for Color, Border & Background
+***************************************************
+*/
+
+
+/*---------------------------------VIOLET--------------------------------------------*/
+.violet{
+    color:#8A6FDF;
+}
+
+.violet-bordered {
+    border: 2px solid #8A6FDF;
+    color: #8A6FDF;
+    background-color: white;
+}
+
+.violet-background {
+    border: 2px solid #8A6FDF;
+    background-color: #8A6FDF;
+    color: white;
+}
+/*-----------------------------------INDIGO------------------------------------------*/
+.indigo{
+    color:#50006C;
+}
+.indigo-bordered {
+    border: 2px solid #50006C;
+    color: #50006C;
+    background-color: white;
+}
+
+.indigo-background {
+    border: 2px solid #50006C;
+    background-color: #50006C;
+    color: white;
+}
+/*-----------------------------------BLUE------------------------------------------*/
+
+.blue{
+    color:#0000FF;
+}
+.blue-bordered {
+    border: 2px solid #0000FF;
+    color: #0000FF;
+    background-color: white;
+}
+
+.blue-background {
+    border: 2px solid #0000FF;
+    background-color: #0000FF;
+    color: white;
+}
+/*-----------------------------------NAVY BLUE------------------------------------------*/
+
+.navyblue{
+    color:#000C66;
+}
+.navyblue-bordered {
+    border: 2px solid #000C66;
+    color:#000C66;
+    background-color: white;
+}
+
+.navyblue-background {
+    border: 2px solid #000C66;
+    background-color: #000C66;
+    color: white;
+}
+/*-----------------------------------SKY BLUE------------------------------------------*/
+.sky-blue{
+    color:#7EC8E3
+}
+.skyblue-bordered {
+    border: 2px solid #7EC8E3;
+    color: #7EC8E3;
+    background-color: white;
+}
+
+.skyblue-background {
+    border: 2px solid #7EC8E3;
+    background-color: #7EC8E3;
+    color: white;
+}
+/*-----------------------------------GREEN------------------------------------------*/
+
+.green{
+    color:#5CD85A;
+}
+.green-bordered {
+    border: 2px solid #5CD85A;
+    color: #5CD85A;
+    background-color: white;
+}
+
+.green-background {
+    border: 2px solid #5CD85A;
+    background-color: #5CD85A;
+    color: white;
+}
+/*-----------------------------------GRASS GREEN------------------------------------------*/
+.grassgreen{
+    color:#A8E10C;
+}
+.grassgreen-bordered {
+    border: 2px solid #A8E10C;
+    color: #A8E10C;
+    background-color: white;
+}
+
+.grassgreen-background {
+    border: 2px solid #A8E10C;
+    background-color: #A8E10C;
+    color: white;
+}
+/*-----------------------------------DARK GREEN------------------------------------------*/
+.darkgreen{
+    color:#1D741B;
+}
+.darkgreen-bordered {
+    border: 2px solid #1D741B;
+    color: #1D741B;
+    background-color: white;
+}
+
+.darkgreen-background {
+    border: 2px solid #1D741B;
+    background-color: #1D741B;
+    color: white;
+}
+/*-----------------------------------YELLOW------------------------------------------*/
+.yellow{
+    color:#FFDB15;
+}
+.yellow-bordered {
+    border: 2px solid #FFDB15;
+    color: #FFDB15;
+    background-color: white;
+}
+
+.yellow-background {
+    border: 2px solid #FFDB15;
+    background-color: #FFDB15;
+    color: white;
+}
+/*-----------------------------------AMBER------------------------------------------*/
+.amber{
+    color:#FFCD23;
+}
+.amber-bordered {
+    border: 2px solid #FFCD23;
+    color: #FFCD23;
+    background-color: white;
+}
+
+.amber-background {
+    border: 2px solid #FFCD23;
+    background-color: #FFCD23;
+    color: white;
+}
+/*-----------------------------------ORANGE------------------------------------------*/
+.orange{
+   color: #FF9636;
+}
+.orange-bordered {
+    border: 2px solid #FF9636;
+    color: #FF9636;
+    background-color: white;
+}
+
+.orange-background {
+    border: 2px solid #FF9636;
+    background-color: #FF9636;
+    color: white;
+}
+/*-----------------------------------PINK------------------------------------------*/
+.pink{
+    color:#FB8DA0;
+}
+.pink-bordered {
+    border: 2px solid #FB8DA0;
+    color: #FB8DA0;
+    background-color: white;
+}
+
+.pink-background {
+    border: 2px solid #FB8DA0;
+    background-color: #FB8DA0;
+    color: white;
+}
+/*-----------------------------------FUCHSIA------------------------------------------*/
+.fuchsia{
+    color:#FB4570;
+}
+.fuchsia-bordered {
+    border: 2px solid #FB4570;
+    color: #FB4570;
+    background-color: white;
+}
+
+.fuchsia-background {
+    border: 2px solid #FB4570;
+    background-color: #FB4570;
+    color: white;
+}
+/*-----------------------------------RED------------------------------------------*/
+.red{
+    color:#FF2511;
+}
+.red-bordered {
+    border: 2px solid #FF2511;
+    color: #FF2511;
+    background-color: white;
+}
+
+.red-background {
+    border: 2px solid #FF2511;
+    background-color: #FF2511;
+    color: white;
+}
+/*-----------------------------------CORALRED------------------------------------------*/
+.coralred{
+    color: #FF5765;
+}
+.coralred-bordered {
+    border: 2px solid #FF5765;
+    color: #FF5765;
+    background-color: white;
+}
+
+.coralred-background {
+    border: 2px solid #FF5765;
+    background-color: #FF5765;
+    color: white;
+}
+/*-----------------------------------ROSERED------------------------------------------*/
+.rosered{
+    color: #FF2768;
+}
+.rosered-bordered {
+    border: 2px solid #FF2768;
+    color: #FF2768;
+    background-color: white;
+}
+
+.rosered-background {
+    border: 2px solid #FF2768;
+    background-color: #FF2768;
+    color: white;
+}
+/*-----------------------------------BROWN------------------------------------------*/
+.brown{
+    color: #A47551;
+}
+.brown-bordered {
+    border: 2px solid #A47551;
+    color: #A47551;
+    background-color: white;
+}
+
+.brown-background {
+    border: 2px solid #A47551;
+    background-color: #A47551;
+    color: white;
+}
+/*-----------------------------------LIGHTBROWN------------------------------------------*/
+.lightbrown{
+    color: #D0B49F;
+}
+.lightbrown-bordered {
+    border: 2px solid #D0B49F;
+    color: #D0B49F;
+    background-color: white;
+}
+
+.lightbrown-background {
+    border: 2px solid #D0B49F;
+    background-color: #D0B49F;
+    color: white;
+}
+/*-----------------------------------DARKBROWN------------------------------------------*/
+.darkbrown{
+    color: #523A28;
+}
+.darkbrown-bordered {
+    border: 2px solid #523A28;
+    color: #523A28;
+    background-color: white;
+}
+
+.darkbrown-background {
+    border: 2px solid #523A28;
+    background-color: #523A28;
+    color: white;
+}
+
+.black-bordered {
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+}
+
+.black-background {
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+}
+
+/*-----------------------------------WHITE------------------------------------------*/
+.white{
+    color:white;
+}

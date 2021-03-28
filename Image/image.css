@@ -1,0 +1,17 @@
+.responsive-image-container{
+ display: flex;
+flex-wrap:wrap;
+
+}
+
+.responsive-image-container>img{
+    /* width: 200px;  */
+    width:100;
+    height: auto;
+    margin: 0.5em;  
+}
+
+.set-image-width-350px{
+    width: 350px;
+}
+
