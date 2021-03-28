@@ -197,7 +197,7 @@ footer {
 
 @media (max-width:675px) {
 
-    body, header,main,nav,footer{
+    body, header,main,nav,footer, aside{
         margin: 0 auto;
         width:675px;
     }
