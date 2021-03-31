@@ -255,6 +255,7 @@ iframe {
 aside{
     background-color: var(--primary-color);
     z-index:99999;
+    border:none;
 }
     aside>ul{
         position:relative;
