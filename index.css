@@ -109,6 +109,10 @@ aside {
     padding: 0.5em;
     margin: 0.5em;
     border-right: 2px solid var(--secondary-color);
+    position:sticky;
+    left:0rem;
+    top:1rem;
+    bottom:1rem;
 
 }
 
