@@ -257,6 +257,7 @@ aside{
     z-index:99999;
     border:none;
     width:100%;
+    float: none;
 }
     aside>ul{
         position:relative;
