@@ -1,11 +1,11 @@
 .btn {
-    padding: 0.5em 1em 0.5em 1em;
+    padding: 0.5em 1em ;
     
 }
 
 .btn-round-edges {
     border-radius: 1em;
-    padding: 0.5em 1.5em 0.5em 1.5em;
+    padding: 0.5em 1.5em ;
    
 }
 
@@ -17,7 +17,7 @@
 }
 
 .btn-text{
-    padding: 0.5em 1em 0.5em 1em;
+    padding: 0.5em 1em ;
    
     border:none;    
     letter-spacing: 1px;
@@ -33,18 +33,18 @@ CSS Button Classes for size Large & Small
 */
 
 .btn-size-largest{
-    padding: 0.5em 1em 0.5em 1em;
+    padding: 0.5em 1em ;
    
     font-size:x-large;
 }
 .btn-size-large{
-    padding: 0.5em 1em 0.5em 1em;
+    padding: 0.5em 1em ;
     
     font-size:large;
 }
 
 .btn-size-small{
- padding: 0.5em 1em 0.5em 1em;
+ padding: 0.5em 1em ;
  
  font-size:x-small;
 }
