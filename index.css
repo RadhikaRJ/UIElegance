@@ -248,3 +248,7 @@ iframe {
 
     }
 }
+
+button{
+    color:var(--secondary-color);
+}
