@@ -123,27 +123,29 @@ nav>ul {
 nav>ul>li {
     margin: 0.5em;   
    list-style: none;
-    width:180px;
+    width:180px;   
+    border-radius: 0.25em;; border: 2px solid white;
+    padding:0.25em 1em;
+    border-radius:0.5em;
     background-color: var(--secondary-color);
-    border-radius: 0.25em;;
+
 }
 
-nav>ul>li>a {
-   
-    width:180px;
+nav>ul>li>a {  
     text-decoration: none;  
     color:white;
+    
+   
+}
+nav a:hover,
+nav a:focus {
+    color: var(--secondary-color);
+    background-color: white;
+    font-weight: bold;
+    padding:0.5em;
 }
 
-nav>ul>li:hover {
-    
-    color: var(--secondary-color);
-    border: 2px solid var(--tertiary-color);
-}
-nav>ul>li>a:hover{
-    color:var(--secondary-color);
-    background-color: transparent;
-}
+
 
 
 
@@ -159,12 +161,15 @@ footer {
 }
 
 .current-page {
-    border: 2px solid var(--tertiary-color);
-    border-radius: 0.5em;
+   
+   
+    padding:0.5em;
+    color:var(--secondary-color);
     background-color: white;
-    color: var(--secondary-color);
-    padding:0.25em;
-    z-index: 20;;
+    font-weight:900;
+    text-transform: uppercase;
+    
+   
 }
 
 .component-main-display {
@@ -248,14 +253,15 @@ iframe {
     z-index: 0;
 }
 
+
+/*************************************MEDIA QUERY*********************************************************************************/
+
+
 @media (max-width:620px) {
 
     body{
         margin: 0 auto;
         width:620px;
-        border: 2px solid red;
-       
- 
         padding:0.25em;
         font-size:12px;
 
@@ -352,15 +358,11 @@ iframe {
 
     
     }
-    nav li:focus,
-    nav li:hover{
-        color:var(--secondary-color);
-        background-color: white;
-    }
+   
     nav a {
         /* border: 2px solid green; */
         text-decoration: none;
-        color: var(--secondary-color);
+        
         padding: 0.25em;
         
     }
@@ -368,7 +370,9 @@ iframe {
     nav a:hover,
     nav a:focus {
         color: var(--secondary-color);
+        background-color: white;
         font-weight: bold;
+        padding:0.5em;
     }
 
     iframe {
