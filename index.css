@@ -333,6 +333,8 @@ iframe {
 
     nav{
         z-index:10;
+        display: flex;
+        justify-content: space-between;
     }
     nav ul {
         /* border: 2px solid magenta; */
