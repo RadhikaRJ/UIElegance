@@ -114,6 +114,12 @@ main {
     
 }
 
+header{
+    position:sticky;
+    top:0%;
+    background-color: white;
+    z-index:999999;
+}
 nav>ul {
     display: flex;
     flex-wrap: wrap;
