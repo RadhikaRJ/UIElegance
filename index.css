@@ -120,7 +120,7 @@ nav>ul {
 
 nav>ul>li {
     margin: 0.5em;   
-   
+   list-style: none;
     width:180px;
     background-color: var(--secondary-color);
     border-radius: 0.25em;;
