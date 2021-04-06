@@ -46,12 +46,13 @@ body {
     color: var(--secondary-color);
     margin:0 auto;
     width:1060px;
+    font-size:14px;
 }
 
 .header {
     /* border: 2px solid red; */
     text-align: center;
-    margin: 0.5em;
+   
     background-color: var(--primary-color);
     color: var(--secondary-color);
 
@@ -82,7 +83,7 @@ body {
 .container {
     /* border: 2px solid black; */
     display: flex;
-    margin: 0 auto;
+   
     align-items: flex-start;
     justify-content: center;
 
@@ -103,15 +104,14 @@ body {
 
 main {
     /* border: 2px solid blue; */
-    padding: 0.5em;
-    margin: 0.5em;
+    /* padding: 0.5em;
+    margin: 0.5em; */
 }
 
 
 
 .main-container {
-    width: 675px;
-    margin: 0 auto;
+    
 }
 
 nav>ul {
@@ -145,45 +145,15 @@ nav>ul>li>a:hover{
     background-color: transparent;
 }
 
-aside {
-    /* border: 2px solid green; */
-    float: left top;
-    text-align: left;
-    padding: 0.5em;
-    margin: 0.5em;
-    border-right: 2px solid var(--secondary-color);
-    position: sticky;
-    left: 0rem;
-    top: 1rem;
-    bottom: 1rem;
 
-}
 
-aside>ul>li {
-    padding: 0.5em;
-    list-style-type: none;
-    margin: 1em;
-}
 
-aside>ul>li>a {
-    text-decoration: none;
-    padding: 0.5em;
-    background-color: var(--secondary-color);
-   
-
-}
-
-aside>ul>li>a:hover {
-    background-color: white;
-    color: var(--secondary-color);
-    border: 2px solid var(--tertiary-color);
-}
 
 footer {
     text-align: center;
     /* border: 2px solid magenta; */
-    margin: 0.5em;
-    padding: 0.25em;
+   
+    padding:0.25em;
     background-color: var(--secondary-color);
     color: white;
 }
@@ -199,8 +169,8 @@ footer {
 
 .component-main-display {
 
-    padding: 0.5em;
-    margin: 0.5em;
+    /* padding: 0.5em;
+    margin: 0.5em; */
 
 }
 
@@ -245,7 +215,7 @@ footer {
 .icon-btn-container>section,
 .badge-on-icon-container>div,
 .rating-sizes>section {
-    margin: 0.5em 1em 0.5em 1em;
+    margin: 0.5em 0em;
 }
 
 .about-image-content {
@@ -278,53 +248,55 @@ iframe {
     z-index: 0;
 }
 
-@media (max-width:675px) {
+@media (max-width:620px) {
 
     body{
         margin: 0 auto;
-        width:675px;
-    }
-
-    header,
-    main,
-    nav,
-    footer,
-    .main-container,
-    .container,
-    .component-main-display,
-    .component-container,
-    .about-image-content {
-        
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        width:675px;
+        width:620px;
+        border: 2px solid red;
+       
+ 
+        padding:0.25em;
+        font-size:12px;
 
     }
 
-    aside {
-        background-color: var(--primary-color);
-        z-index: 99999;
-        border: none;
-        width: 100%;
-        float: none;
-    }
+   .header,
+   .container,
+   main,
+   .component-container,
+   .about-image-content,
+   .subcontainer{
+       margin:0;
+       padding:0;
+       width:620px;
+      
+   }
+   
+   .header,
+   main,
+   .component-container,
+   .about-image-content,
+   .subcontainer,
+   .subcontainer>section,   
+   .component-description{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+    max-width:620px;
 
-    aside>ul {
-        position: relative;
-        display: flex;
-        flex-wrap: wrap;
-        position: relative;
-
-    }
+   }
+  
+   
     .hamburger {
         display: block;
         z-index: 2;
         position: absolute;
-        right: 5%;
+        right: -10%;
         top: 5%;
         margin: 0 10px;
+       
         
 
     }
@@ -399,25 +371,29 @@ iframe {
         font-weight: bold;
     }
 
+    iframe {
 
-    .textColor-btn-container,
-.button-sizes-container,
-.squareEdge-bordered-btn-container,
-.squareEdge-filled-btn-container,
-.roundEdge-btn-container,
-.button-style-container,
-.icon-btn-sizes-container,
-.icon-btn-container,
-.badge-on-icon-container,
-.text-badge-container,
-.rating-sizes {
-    display: flex;    
-    flex-wrap: wrap;
-   
-    flex-direction: column;
-
-
-}
+        overflow: hidden;
+        transform: scale(1);
+        width: 50%;
+        height: 100%;
+        z-index: 0;
+    }
+    .textColor-btn-container>section,
+    .button-sizes-container>section,
+    .squareEdge-bordered-btn-container>section,
+    .squareEdge-filled-btn-container>section,
+    .roundEdge-btn-container>section,
+    .button-style-container>section,
+    .icon-btn-sizes-container>section,
+    .icon-btn-container>section,
+    .badge-on-icon-container>div,
+    .rating-sizes>section {
+       margin:0;
+    }
+    section>p{
+        width:500px;
+    }
 }
 
 button {
