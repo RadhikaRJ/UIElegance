@@ -44,6 +44,8 @@ body {
     color: white; */
     background-color: var(--primary-color);
     color: var(--secondary-color);
+    margin:0 auto;
+    width:1060px;
 }
 
 .header {
@@ -278,7 +280,11 @@ iframe {
 
 @media (max-width:675px) {
 
-    body,
+    body{
+        margin: 0 auto;
+        width:675px;
+    }
+
     header,
     main,
     nav,
@@ -287,11 +293,12 @@ iframe {
     .container,
     .component-main-display,
     .component-container {
-        margin: 0 auto;
-        width: 675px;
+        
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        justify-content: flex-start;
+        width:675px;
 
     }
 
@@ -315,10 +322,9 @@ iframe {
         z-index: 2;
         position: absolute;
         right: 5%;
-        top: 10%;
+        top: 5%;
         margin: 0 10px;
-        position:fixed;
-        top:5%;
+        
 
     }
     /*Animating Hamburger Icon on Click*/
@@ -392,6 +398,25 @@ iframe {
         font-weight: bold;
     }
 
+
+    .textColor-btn-container,
+.button-sizes-container,
+.squareEdge-bordered-btn-container,
+.squareEdge-filled-btn-container,
+.roundEdge-btn-container,
+.button-style-container,
+.icon-btn-sizes-container,
+.icon-btn-container,
+.badge-on-icon-container,
+.text-badge-container,
+.rating-sizes {
+    display: flex;    
+    flex-wrap: wrap;
+   
+    flex-direction: column;
+
+
+}
 }
 
 button {
