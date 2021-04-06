@@ -292,7 +292,8 @@ iframe {
     .main-container,
     .container,
     .component-main-display,
-    .component-container {
+    .component-container,
+    .about-image-content {
         
         display: flex;
         flex-direction: column;
