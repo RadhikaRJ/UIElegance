@@ -1,0 +1,1048 @@
+/****************************** ALERT *********************************/
+.alert {
+    border: 1px solid black;
+    margin: 0.5em;
+    width: fit-content;
+    padding: 0 1em 0 1em;
+    color: black;
+}
+
+
+.warning-alert {
+    margin: 0.5em;
+    width: fit-content;
+    padding: 0 1em 0 1em;
+    background-color: #FECACA;
+    color: rgb(226, 80, 80);
+    border: 2px solid rgb(226, 80, 80);
+}
+
+.success-alert {
+    margin: 0.5em;
+    width: fit-content;
+    padding: 0 1em 0 1em;
+    background-color: #D1FAE5;
+    border: 2px solid rgb(31, 114, 31);
+    color: rgb(31, 114, 31);
+
+}
+
+.caution-alert {
+    margin: 0.5em;
+    width: fit-content;
+    padding: 0 1em 0 1em;
+    background-color: #FEF3C7;
+    border: 2px solid rgb(167, 6, 6);
+    color: rgb(167, 6, 6);
+}
+
+.notification-alert {
+    margin: 0.5em;
+    width: fit-content;
+    padding: 0 1em 0 1em;
+    background-color: #DBEAFE;
+    border: 2px solid rgb(16, 108, 194);
+    color: rgb(16, 108, 194);
+}
+
+.close-alert {
+    float: right top;
+    font-size: 15px;
+    padding: 0 0.25em 0 0.25em;
+    margin: 0 0 0 1em;
+    font-weight: 800;
+    border-radius: 75%;
+    background-color: transparent;
+    color: black;
+}
+
+.close-alert:hover {
+    color: red;
+
+}
+
+/****************************** AVATAR *********************************/
+
+
+.avatar-border{
+    /* border: 2px solid red; */
+    text-align: center;
+    margin:1em;
+  }
+  .avatar-sizes{
+      display: flex;   
+      margin: 0.5em;
+      padding: 0.25em;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      /* border: 2px solid green; */
+      
+  }
+  .avatar-x-small {
+      
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+    .avatar-small {
+     
+      width: 85px;
+      height: 85px;
+      border-radius: 50%;
+    }
+    .avatar {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+    }
+    .avatar-large {
+     
+      width: 155px;
+      height: 155px;
+      border-radius: 50%;
+    }
+    .avatar-x-large {
+     
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+    }
+    
+/****************************** BADGE *********************************/
+
+.badge-small-size
+{
+    height: 12px;
+    width: 12px;   
+    border-radius: 50%;
+    display: inline-block;
+    position:relative;
+    right:0.75em;
+  }
+
+  .badge-normal-size{
+    height: 18px;
+    width: 18px;
+    
+    border-radius: 50%;
+    display: inline-block;
+    position:relative;
+    right:1.5em;
+  }
+
+  .badge-large-size{
+    height: 25px;
+    width: 25px;
+   
+    border-radius: 50%;
+    display: inline-block;
+    position:relative;
+    right:1.95em;
+  }
+
+.badge-on-icon{
+    height:12px;
+    width:12px;
+    border-radius: 50%;
+    display: inline-block;
+    position:relative;
+    bottom:2em;
+    right:0.75em;
+    font-size: 12px;
+    text-align: center;
+}
+.badge-within{
+    border-radius: 50%;    
+    margin-left:1em;
+    height:25px;
+    width:25px;
+    
+}
+/****************************** BUTTON *********************************/
+.btn {
+    padding: 0.5em 1em 0.5em 1em;
+    
+}
+
+.btn-round-edges {
+    border-radius: 1em;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+   
+}
+
+.link-btn{
+    text-decoration:none;
+    border: 1px solid;
+    color:black;
+    padding:0.5em;
+}
+
+.btn-text{
+    padding: 0.5em 1em 0.5em 1em;
+   
+    border:none;    
+    letter-spacing: 1px;
+    font-weight:700;
+}
+
+
+/*
+***************************************************
+
+CSS Button Classes for size Large & Small
+***************************************************
+*/
+
+.btn-size-largest{
+    padding: 0.5em 1em 0.5em 1em;
+   
+    font-size:x-large;
+}
+.btn-size-large{
+    padding: 0.5em 1em 0.5em 1em;
+    
+    font-size:large;
+}
+
+.btn-size-small{
+ padding: 0.5em 1em 0.5em 1em;
+ 
+ font-size:x-small;
+}
+
+/*
+***************************************************
+
+CSS ICON Button Classes for size Large & Small
+***************************************************
+*/
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/**/
+.position-along{
+    position:relative;
+    top:0.30em;  
+    margin: 0 0 0 0.35em;
+   
+}
+.btn-icon,
+.btn-floating-action-bottom-right,
+.btn-floating-action-bottom-left,
+.btn-floating-action-top-right,
+.btn-floating-action-top-left
+{
+    padding:0.5em;
+    margin:0.5em;  
+    width:fit-content;
+    height:fit-content;
+    background-color: transparent;
+    border:none;
+}
+
+.btn-floating-action-bottom-right{
+    position:fixed;    
+    bottom:7em;
+    right:10em;
+    z-index:9999;   
+}
+.btn-floating-action-bottom-left{
+    position:fixed;    
+    bottom:7em;
+    left:10em;
+    z-index:9999;   
+}
+.btn-floating-action-top-right{
+    position:fixed;    
+    top:7em;
+    right:10em;
+    z-index:9999;   
+}
+.btn-floating-action-top-left{
+    position:fixed;    
+    top:7em;
+    left:10em;
+    z-index:9999;   
+}
+
+
+/****************************** CARD *********************************/
+.card-container{
+    /* Change the width & remove card-showSimilat-section div if not needed */
+margin:0 auto;
+width:675px;
+}
+
+.card-small{
+    /*  set width roughly same as width of image */
+    width:110px;   
+    border: 1px solid gray;
+    padding:0.5em;
+    display: flex;
+    flex-direction: column;
+   
+   
+}
+.image-card-size-small{   
+    width:100px;  
+}
+.card-small-showSimilar-section{
+    width:110px;
+    border:1px solid gray;
+    padding:0.5em ;
+}
+.overlay-text-on-small-card{
+    position:absolute;
+    /* use top bottom left right as per requirement */
+    width:100px;;   
+}
+/**********************************/
+.card-medium{
+    /*  set width roughly same as width of image */
+    width:180px;    
+    border: 1px solid gray;
+    padding:0.5em;
+    display: flex;
+    flex-direction: column;
+   
+}
+.image-card-size-medium{
+   
+    width:150px;  
+    
+}
+.card-medium-showSimilar-section{
+    width:180px;
+    border:1px solid gray;
+    padding:0.5em  
+}
+.overlay-text-on-medium-card{
+    position:absolute;
+    /* use top bottom left right as per requirement */
+    width:170px;;   
+}
+
+/**********************************/
+
+.card-large{
+    /*  set width roughly same as width of image */
+    width:300px;
+    border: 1px solid gray;
+    padding:0.5em;
+    display: flex;
+    flex-direction: column;
+   
+}
+.image-card-size-large{
+    width:250px;
+    
+}
+.card-large-showSimilar-section{
+    width:300px;
+    border:1px solid gray;
+    padding:0.5em;
+    
+}
+.overlay-text-on-large-card{
+    position:absolute;
+    /* use top bottom left right as per requirement */
+    width:290px;   
+}
+/**********************************/
+
+.card-content{
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    align-items: center;
+   
+}
+
+
+.card-remove-btn{    
+    width:fit-content;
+    height:fit-content;
+    border-radius:100%;
+    background-color: transparent;
+    font-size:14px;
+    border: 1px solid black;
+    color:gray;
+    margin:0.2em;
+    z-index:99;
+    
+}
+.card-remove-btn:hover{
+    color:red;
+}
+
+
+
+.text-utility-p-padding{
+    padding: 0.1em 0.5em;
+    
+}
+
+.vertical-card{
+    width:280px;
+    height:380px;
+}
+
+.horizontal-card{
+    width:500px;
+    height:200px;
+}
+
+.apply-shadow{
+    /* background: #f0f0f0; */
+    box-shadow: 12px 4px 12px 4px rgba(0,0,0,0.2);
+}
+
+/****************************** COLORPALLET *********************************/
+/*
+***************************************************
+
+CSS Classes for Color, Border & Background
+***************************************************
+*/
+
+
+/*---------------------------------VIOLET--------------------------------------------*/
+.violet{
+    color:#8A6FDF;
+}
+
+.violet-bordered {
+    border: 2px solid #8A6FDF;
+    color: #8A6FDF;
+    background-color: white;
+}
+
+.violet-background {
+    border: 2px solid #8A6FDF;
+    background-color: #8A6FDF;
+    color: white;
+}
+/*-----------------------------------INDIGO------------------------------------------*/
+.indigo{
+    color:#50006C;
+}
+.indigo-bordered {
+    border: 2px solid #50006C;
+    color: #50006C;
+    background-color: white;
+}
+
+.indigo-background {
+    border: 2px solid #50006C;
+    background-color: #50006C;
+    color: white;
+}
+/*-----------------------------------BLUE------------------------------------------*/
+
+.blue{
+    color:#0000FF;
+}
+.blue-bordered {
+    border: 2px solid #0000FF;
+    color: #0000FF;
+    background-color: white;
+}
+
+.blue-background {
+    border: 2px solid #0000FF;
+    background-color: #0000FF;
+    color: white;
+}
+/*-----------------------------------NAVY BLUE------------------------------------------*/
+
+.navyblue{
+    color:#000C66;
+}
+.navyblue-bordered {
+    border: 2px solid #000C66;
+    color:#000C66;
+    background-color: white;
+}
+
+.navyblue-background {
+    border: 2px solid #000C66;
+    background-color: #000C66;
+    color: white;
+}
+/*-----------------------------------SKY BLUE------------------------------------------*/
+.sky-blue{
+    color:#7EC8E3
+}
+.skyblue-bordered {
+    border: 2px solid #7EC8E3;
+    color: #7EC8E3;
+    background-color: white;
+}
+
+.skyblue-background {
+    border: 2px solid #7EC8E3;
+    background-color: #7EC8E3;
+    color: white;
+}
+/*-----------------------------------GREEN------------------------------------------*/
+
+.green{
+    color:#5CD85A;
+}
+.green-bordered {
+    border: 2px solid #5CD85A;
+    color: #5CD85A;
+    background-color: white;
+}
+
+.green-background {
+    border: 2px solid #5CD85A;
+    background-color: #5CD85A;
+    color: white;
+}
+/*-----------------------------------GRASS GREEN------------------------------------------*/
+.grassgreen{
+    color:#A8E10C;
+}
+.grassgreen-bordered {
+    border: 2px solid #A8E10C;
+    color: #A8E10C;
+    background-color: white;
+}
+
+.grassgreen-background {
+    border: 2px solid #A8E10C;
+    background-color: #A8E10C;
+    color: white;
+}
+/*-----------------------------------DARK GREEN------------------------------------------*/
+.darkgreen{
+    color:#1D741B;
+}
+.darkgreen-bordered {
+    border: 2px solid #1D741B;
+    color: #1D741B;
+    background-color: white;
+}
+
+.darkgreen-background {
+    border: 2px solid #1D741B;
+    background-color: #1D741B;
+    color: white;
+}
+/*-----------------------------------YELLOW------------------------------------------*/
+.yellow{
+    color:#FFDB15;
+}
+.yellow-bordered {
+    border: 2px solid #FFDB15;
+    color: #FFDB15;
+    background-color: white;
+}
+
+.yellow-background {
+    border: 2px solid #FFDB15;
+    background-color: #FFDB15;
+    color: white;
+}
+/*-----------------------------------AMBER------------------------------------------*/
+.amber{
+    color:#FFCD23;
+}
+.amber-bordered {
+    border: 2px solid #FFCD23;
+    color: #FFCD23;
+    background-color: white;
+}
+
+.amber-background {
+    border: 2px solid #FFCD23;
+    background-color: #FFCD23;
+    color: white;
+}
+/*-----------------------------------ORANGE------------------------------------------*/
+.orange{
+   color: #FF9636;
+}
+.orange-bordered {
+    border: 2px solid #FF9636;
+    color: #FF9636;
+    background-color: white;
+}
+
+.orange-background {
+    border: 2px solid #FF9636;
+    background-color: #FF9636;
+    color: white;
+}
+/*-----------------------------------PINK------------------------------------------*/
+.pink{
+    color:#FB8DA0;
+}
+.pink-bordered {
+    border: 2px solid #FB8DA0;
+    color: #FB8DA0;
+    background-color: white;
+}
+
+.pink-background {
+    border: 2px solid #FB8DA0;
+    background-color: #FB8DA0;
+    color: white;
+}
+/*-----------------------------------FUCHSIA------------------------------------------*/
+.fuchsia{
+    color:#FB4570;
+}
+.fuchsia-bordered {
+    border: 2px solid #FB4570;
+    color: #FB4570;
+    background-color: white;
+}
+
+.fuchsia-background {
+    border: 2px solid #FB4570;
+    background-color: #FB4570;
+    color: white;
+}
+/*-----------------------------------RED------------------------------------------*/
+.red{
+    color:#FF2511;
+}
+.red-bordered {
+    border: 2px solid #FF2511;
+    color: #FF2511;
+    background-color: white;
+}
+
+.red-background {
+    border: 2px solid #FF2511;
+    background-color: #FF2511;
+    color: white;
+}
+/*-----------------------------------CORALRED------------------------------------------*/
+.coralred{
+    color: #FF5765;
+}
+.coralred-bordered {
+    border: 2px solid #FF5765;
+    color: #FF5765;
+    background-color: white;
+}
+
+.coralred-background {
+    border: 2px solid #FF5765;
+    background-color: #FF5765;
+    color: white;
+}
+/*-----------------------------------ROSERED------------------------------------------*/
+.rosered{
+    color: #FF2768;
+}
+.rosered-bordered {
+    border: 2px solid #FF2768;
+    color: #FF2768;
+    background-color: white;
+}
+
+.rosered-background {
+    border: 2px solid #FF2768;
+    background-color: #FF2768;
+    color: white;
+}
+/*-----------------------------------BROWN------------------------------------------*/
+.brown{
+    color: #A47551;
+}
+.brown-bordered {
+    border: 2px solid #A47551;
+    color: #A47551;
+    background-color: white;
+}
+
+.brown-background {
+    border: 2px solid #A47551;
+    background-color: #A47551;
+    color: white;
+}
+/*-----------------------------------LIGHTBROWN------------------------------------------*/
+.lightbrown{
+    color: #D0B49F;
+}
+.lightbrown-bordered {
+    border: 2px solid #D0B49F;
+    color: #D0B49F;
+    background-color: white;
+}
+
+.lightbrown-background {
+    border: 2px solid #D0B49F;
+    background-color: #D0B49F;
+    color: white;
+}
+/*-----------------------------------DARKBROWN------------------------------------------*/
+.darkbrown{
+    color: #523A28;
+}
+.darkbrown-bordered {
+    border: 2px solid #523A28;
+    color: #523A28;
+    background-color: white;
+}
+
+.darkbrown-background {
+    border: 2px solid #523A28;
+    background-color: #523A28;
+    color: white;
+}
+
+.black-bordered {
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+}
+
+.black-background {
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+}
+
+/*-----------------------------------WHITE------------------------------------------*/
+.white{
+    color:white;
+}
+/****************************** IMAGE *********************************/
+.responsive-image-container{
+    display: flex;
+   flex-wrap:wrap;
+   
+   }
+   
+   .responsive-image-container>img{
+       /* width: 200px;  */
+       width:100;
+       height: auto;
+       margin: 0.5em;  
+   }
+   
+   .set-image-width-350px{
+       width: 350px;
+   }
+   
+   
+/****************************** INPUT *********************************/
+input.custom{
+    caret-color: red;
+    font: 16px "Helvetica", "Arial", "sans-serif"
+}
+
+input + span {
+    padding-right: 30px;
+  }
+  
+  input:invalid+span:after {
+    position: absolute; content: '✖';
+    color:red;
+    padding-left: 5px;
+  }
+  
+  input:valid+span:after {
+    position: absolute;
+    content: '✓';
+    padding-left: 5px;
+    color: green;
+  }
+
+  .basic-input,
+  .validated-basic-input{
+    width:fit-content;
+    padding:0.5em;
+    margin:0.5em;
+  }
+
+  .custom{
+    border: none;
+    border-bottom:2px solid;
+    outline:none;
+  }
+
+  .custom-color{
+    border-bottom: 2px solid orange;
+    color:orange;
+  }
+
+  input::placeholder{
+    color:orange;
+  }
+
+  .cart-details-container {
+    background-color: rgb(233, 231, 231);
+    border-radius: 0.5em;
+    padding: 0.5em;
+}
+
+.cart-item-details>img {
+    border-radius: 1em;
+
+    margin-bottom: 1.5em;
+    object-fit: cover;
+    /* border: 2px solid green; */
+    width: 40%;
+}
+
+.user-input {
+  padding: 0.5em;
+  border: 2px solid darkgray;
+  border-radius: 0.5em;
+  display: flex;
+  margin-top: 0.25em;
+  
+}
+
+.user-input>input {
+  border: none;
+  font-size: 18px;
+  width: 100%;
+  outline: none;
+}
+
+
+/****************************** LISTS *********************************/
+
+
+
+.unordered-list{
+
+}
+.unordered-list>ul{
+    
+}
+
+
+.unordered-list>ul>li{ 
+    margin:1em;
+   padding:0.5em 1em;
+    list-style-type: none;
+}
+
+.stacked-list>ul>li{
+    padding:0.5em 1em;
+    list-style-type: none;
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/****************************** MODAL *********************************/
+.modal-container{
+    padding:2em;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    
+}
+.modal{
+   background-color: snow;
+    border: 2px solid green;
+    position:fixed;
+    top:14em;
+    left:50em;
+    display:none;
+    
+    width:fit-content;
+    
+    background-color: rgb(0,0,0);
+    background-color: rgb(0,0,0,0.4);
+    
+}
+.modal-header{
+    background-color:rgb(158, 227, 255);
+    text-align: center;
+}
+.modal-content{
+    display:flex;
+    flex-direction: column;
+    margin:1em;
+    padding:1em;
+    align-items:center;
+    border-top:1px solid rgb(158, 227, 255);
+    border-bottom:1px solid rgb(158, 227, 255);
+}
+.modal-footer{
+    text-align: center;
+    background-color:rgb(158, 227, 255); ;
+}
+
+.modal-close{
+    color:red;
+    float:right;
+    font-size:28px;
+    font-weight: 800;
+    background-color: transparent;
+    border:none;
+}
+
+.modal-close:hover,
+.modal-close:focus{
+    color:black;
+    text-decoration:none;
+    cursor:pointer;
+}
+.modal-badge{
+    position:relative;
+    top:2em;
+    right:3.5em;    
+    background:white;
+}
+
+.full-page-modal{
+    background-color: snow;
+    border: 2px solid green;
+    position:fixed;
+    /*
+    uncomment below styling for full page modal-----*/
+    top:0;
+    left:0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /*Black w/ opacity */
+    display:none;   
+    background-color: rgb(0,0,0);
+    background-color: rgb(0,0,0,0.4);
+}
+/****************************** NAVIGATION *********************************/
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.navigation {
+    
+    
+    padding: 1rem;
+    
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+   
+
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+.link {
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
+}
+
+
+/****************************** RATING *********************************/
+.rating-basic{
+    padding:0.5em;
+    display: flex;
+    flex-wrap:wrap;
+    width:fit-content;
+}
+
+
+.large-size-rating>span{
+    padding:0.25em;
+  font-size: xx-large; 
+}
+
+.medium-size-rating>span{
+    padding:0.25em;
+    font-size: large;  
+}
+
+.small-size-rating>span{
+    padding:0.25em;
+    font-size: small;  
+   
+}
+/****************************** SIMPLIFIED GRID *********************************/
+.grid-of-two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap:10px;
+       
+}
+
+.grid-of-three{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap:10px;
+       
+}
+/****************************** TEXT UTILITIES *********************************/
+.set-heading{
+    font-size:xx-large;
+    font-weight:900;
+}
+
+.set-smalltext{
+    font-size:small;
+}
+
+.set-graytext{
+    color:gray;
+    font-weight: 800;
+    letter-spacing: 1px;;
+}
+
+.superscript{
+    position:relative;
+    font-size:small;
+    bottom:1em;
+}
+
+.text-utility-p-padding{
+    padding: 0.1em 0.5em;
+    
+}
+/****************************** TOAST *********************************/
+
+
+.toast{
+    font-weight: 700;
+    padding:0.25rem;
+    font-size: medium;
+    text-align: center;
+    border: 1px solid black;
+    z-index: 800;
+}

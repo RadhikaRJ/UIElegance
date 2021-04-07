@@ -1,0 +1,25 @@
+.set-heading{
+    font-size:xx-large;
+    font-weight:900;
+}
+
+.set-smalltext{
+    font-size:small;
+}
+
+.set-graytext{
+    color:gray;
+    font-weight: 800;
+    letter-spacing: 1px;;
+}
+
+.superscript{
+    position:relative;
+    font-size:small;
+    bottom:1em;
+}
+
+.text-utility-p-padding{
+    padding: 0.1em 0.5em;
+    
+}

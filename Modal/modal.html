@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal | UIElegance </title>
+    <link href="../index.css" rel="stylesheet">
+    <link href="modal.css" rel="stylesheet">
+    <link href="/Button/button.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="contain container-nav">
+            <div class="container-logo">
+              <p class="logo">UIElegance</p>
+            </div>
+            <div class="container-nav">
+              <nav>
+                <ul class="list-non-bullet nav-pills nav-list">
+                    <li class="list-item-inline ">
+                        <a href="../index.html">Home</a>
+                    </li>
+                    <li class="list-item-inline">
+                        <a href="/Avatar/avatar.html">Avatar</a>
+    
+                    </li>
+                    <li class="list-item-inline">
+                        <a href="/Alert/alert.html">Alert</a>
+    
+                    </li>
+                    <li class="list-item-inline">
+                        <a href="/Badge/badge.html">Badge</a>
+    
+                    </li>
+                    <li class="list-item-inline">
+                        <a href="/Button/button.html">Button</a>
+    
+                    </li>
+                    <li class="list-item-inline">
+                        <a href="/Card/card.html">Card</a>
+    
+                    </li>
+                    <li class="list-item-inline">
+                        <a href="/Image/image.html">Image</a>
+    
+                    </li>
+                    <li class="list-item-inline">
+                        <a href="/Input/input.html">Input</a>
+    
+                    </li>
+                    <li class="list-item-inline">
+                        <a href="/Lists/list.html">List</a>
+    
+                    </li>
+                    <li class="list-item-inline">
+                        <a href="/Navigation/navigation.html">Navigation</a>
+    
+                    </li>
+                    <li class="list-item-inline">
+                        <a  class="current-page" href="/Modal/modal.html">Modal</a>
+    
+                    </li>
+                    <li class="list-item-inline">
+                        <a href="/Rating/rating.html">Rating</a>
+    
+                    </li>
+                    <li class="list-item-inline">
+                        <a href="/SimplifiedGrid/simplifiedGrid.html">Simplified Grid</a>
+    
+                    </li>
+                    <li class="list-item-inline">
+                        <a href="/TextUtilities/textutilities.html">Text Utilities</a>
+    
+                    </li>
+                    <li class="list-item-inline">
+                        <a href="/ColorPallet/colorpallet.html">Color Pallet</a>
+    
+                    </li>
+                    <li class="list-item-inline">
+                        <a href="/Toast/toast.html">Toast/Notify/Snackbar</a>
+                    </li>
+    
+    
+                </ul>
+                <div class="hamburger">
+                  <div class="line1"></div>
+                  <div class="line2"></div>
+                  <div class="line3"></div>
+                </div>
+              </nav>
+            </div>
+          </div>
+    </header>
+    <hr>
+    <div class="container ">
+        <!-- <aside>
+            <h2>Components</h2>
+            <ul>
+
+                <li><a href="/Avatar/avatar.html">Avatar</a></li>
+                <li><a href="/Alert/alert.html">Alert</a></li>
+                <li><a href="/Badge/badge.html">Badge</a></li>
+                <li><a href="/Button/button.html">Button</a></li>
+                <li><a href="/Card/card.html">Card</a></li>
+                <li><a href="/Image/image.html">Image</a></li>
+                <li><a href="/Input/input.html">Input</a></li>
+                <li><a href="/Lists/list.html">List</a></li>
+                <li><a href="/Navigation/navigation.html">Navigation</a></li>
+                <li><a class="current-page" href="/Modal/modal.html">Modal</a></li>
+                <li><a href="/Rating/rating.html">Rating</a></li>
+
+                <li><a href="/SimplifiedGrid/simplifiedGrid.html">Simplified Grid</a></li>
+                <li><a href="/TextUtilities/textutilities.html">Text Utilities</a></li>
+                <li><a href="/ColorPallet/colorpallet.html">Color Pallet</a></li>
+                <li><a href="/Toast/toast.html">Toast/Notify/Snackbar</a></li>
+                <li><a href="../index.html">Home</a></li>
+            </ul>
+        </aside> -->
+        <main>
+            <div class="component-main-display">
+                <h2>Modal</h2>
+                <p>Copy below link into head tag of your HTML file:</p>
+                <div class="code-preview">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=night-owl&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=32px&ln=false&fl=1&fm=Hack&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520href%253D%2522https%253A%252F%252Fgithub.com%252FRadhikaRJ%252FElegance%252Fblob%252Fmain%252FModal%252Fmodal.css%2522%2520rel%253D%2522stylesheet%2522%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <p>Modals are used to bring user's attention to particular piece of information & potentially not permit
+                    the user to do any other task till it's closed. Modals can take up a certain section of the page or
+                    cover the entire page.</p>
+                <h3><code>.modal</code> for simple small modal</h3>
+                <h3><code>.full-page-modal</code> for a modal that is expected to cover the entire user's screen</h3>
+                <div class="component-container">
+                    <section>
+                        <div class="modal-container">
+                            <button class="btn-text" id="modalbtn">Show Simple Modal</button>
+                            <div id="modal" class="modal">
+                                <span class="modal-close" id="modalClose">&times;</span>
+                                <div class="modal-header">
+                                    <h3>This is a Modal Header</h3>
+                                </div>
+                                <div class="modal-content">
+                                    <p>Some content of Modal</p>
+                                    <span class="modal-badge">DISCOUNT!!</span>
+                                    <div class="card">
+                                        <img style="width:220px;" src="/Card/card-image.svg">
+                                        <p><strong>This is a Modal</strong></p>
+                                        <p>Some description</p>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <footer>
+                                        <p>Modal Footer</p>
+                                    </footer>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-container">
+                            <button class="btn-text" id="modalbtn1">Show Full Page Modal</button>
+                            <div id="modal1" class="full-page-modal">
+                                <span class="modal-close" id="modalClose1">&times;</span>
+                                <div class="modal-header">
+                                    <h3>This is a Modal Header</h3>
+                                </div>
+                                <div class="modal-content">
+                                    <p>Some content of Modal</p>
+                                    <span class="modal-badge">DISCOUNT!!</span>
+                                    <div class="card">
+                                        <img style="width:220px;" src="/Card/card-image.svg">
+                                        <p><strong>This is a Modal</strong></p>
+                                        <p>Some description</p>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <footer>
+                                        <p>Modal Footer</p>
+                                    </footer>
+                                </div>
+                            </div>
+                        </div>
+                        <script>
+                            var modalRef = document.getElementById("modal");
+                            var btnRef = document.getElementById("modalbtn");
+                            var spanRef = document.getElementById("modalClose");
+                            btnRef.onclick = function () {
+                                modalRef.style.display = "block";
+                            }
+                            spanRef.onclick = function () {
+                                modalRef.style.display = "none";
+                            }
+                        </script>
+                        <script>
+                            var modalRef1 = document.getElementById("modal1");
+                            var btnRef1 = document.getElementById("modalbtn1");
+                            var spanRef1 = document.getElementById("modalClose1");
+                            btnRef1.onclick = function () {
+                                modalRef1.style.display = "block";
+                            }
+                            spanRef1.onclick = function () {
+                                modalRef1.style.display = "none";
+                            }
+                        </script>
+                </div>
+            </div>
+            <div class="code-preview">
+                <h3>HTML Snippet for Simple Modal</h3>
+                <h3>Replace <code>.modal</code> with <code>.full-page-modal</code> in below HTML</h3>
+                <p>Feel free to modify the modal content in the <code>.modal-header</code>, <code>.modal-content</code>
+                    & <code>.modal-footer</code> parts.</p>
+                <section>
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=night-owl&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=32px&ln=false&fl=1&fm=Hack&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal-container%2522%253E%250D%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-text%2522%2520id%253D%2522modalbtn%2522%253EShow%2520Simple%2520Modal%253C%252Fbutton%253E%250D%250A%2520%2520%2520%2520%253Cdiv%2520id%253D%2522modal%2522%2520class%253D%2522modal%2522%253E%253Cspan%2520class%253D%2522modal-close%2522%2520id%253D%2522modalClose%2522%253E%2526times%253B%253C%252Fspan%253E%250D%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-header%2522%253E%253Ch3%253EThis%2520is%2520a%2520Modal%2520Header%253C%252Fh3%253E%253C%252Fdiv%253E%253Cdiv%2520class%253D%2522modal-content%2522%253E%253Cp%253ESome%2520content%2520of%2520Modal%253C%252Fp%253E%253Cspan%2520class%253D%2522modal-badge%2522%253EDISCOUNT%21%21%253C%252Fspan%253E%253Cdiv%2520class%253D%2522card%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250D%250A%2520%2520%2520%2520%253Cimg%2520style%253D%2522width%253A220px%253B%2522%2520src%253D%2522%252FCard%252Fcard-image.svg%2522%253E%253Cp%253E%253Cstrong%253EThis%2520is%2520a%2520Modal%253C%252Fstrong%253E%253C%252Fp%253E%253Cp%2520%253ESome%2520description%253C%252Fp%253E%253C%252Fdiv%253E%253C%252Fdiv%253E%253Cdiv%2520class%253D%2522modal-footer%2522%253E%253Cfooter%253E%253Cp%253EModal%2520Footer%253C%252Fp%253E%253C%252Ffooter%253E%253C%252Fdiv%253E%250D%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250D%250A%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </section>
+                <h3>JS Script Snippet</h3>
+                <section>
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=night-owl&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=32px&ln=false&fl=1&fm=Hack&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%253Cscript%253E%250D%250A%2520%2520%2520%2520var%2520modalRef%2520%253D%2520document.getElementById%28%2522modal%2522%29%253B%250D%250A%2520%2520%2520%2520var%2520btnRef%2520%253D%2520document.getElementById%28%2522modalbtn%2522%29%253B%250D%250A%2520%2520%2520%2520var%2520spanRef%2520%253D%2520document.getElementById%28%2522modalClose%2522%29%253B%250D%250A%2520%2520%2520%2520btnRef.onclick%2520%253D%2520function%2520%28%29%2520%257B%250D%250A%2520%2520%2520%2520%2520%2520%2520%2520modalRef.style.display%2520%253D%2520%2522block%2522%253B%250D%250A%2520%2520%2520%2520%257D%250D%250A%2520%2520%2520%2520spanRef.onclick%2520%253D%2520function%2520%28%29%2520%257B%250D%250A%2520%2520%2520%2520%2520%2520%2520%2520modalRef.style.display%2520%253D%2520%2522none%2522%253B%250D%250A%2520%2520%2520%2520%257D%250D%250A%253C%252Fscript%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </section>
+            </div>
+    </div>
+
+    </main>
+
+    </div>
+    <hr>
+    <footer>
+        <p>Inspired from various CSS libraries, this <strong>UIElegance</strong> Component Library is built by Radhika
+            Joshi. </p>
+    </footer>
+    <script src="/nav.js" type="text/javascript"></script>
+</body>
+
+</html>

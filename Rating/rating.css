@@ -1,0 +1,23 @@
+.rating-basic{
+    padding:0.5em;
+    display: flex;
+    flex-wrap:wrap;
+    width:fit-content;
+}
+
+
+.large-size-rating>span{
+    padding:0.25em;
+  font-size: xx-large; 
+}
+
+.medium-size-rating>span{
+    padding:0.25em;
+    font-size: large;  
+}
+
+.small-size-rating>span{
+    padding:0.25em;
+    font-size: small;  
+   
+}
